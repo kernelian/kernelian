@@ -372,7 +372,7 @@ void enter_draw_mode(int* offset_ptr) {
 void kmain(void) {
     current_color = 0x9;
     int offset = 0;
-    print("Hello! Welcome to Kernelian 0.1. Type help for the list of commands.\n", &offset);
+    print("Hello! Welcome to Kernelian. Type "help" for the list of commands.\n", &offset);
 
     idt_init();
 
