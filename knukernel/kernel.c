@@ -458,10 +458,6 @@ void kmain(void) {
             current_color = 0x0F;
             print_ram_info(&offset);
 
-        } else if (strcmp(buffer, "why") == 0) {
-            current_color = 0x0F;
-            print("\nBecause that's how Kernelian rolls.", &offset);
-
         } else if (strcmp(buffer, "earth") == 0) {
             current_color = 0x0A;
             print("\n           _____\n", &offset);
@@ -522,7 +518,6 @@ void kmain(void) {
             print("earth - Output Earth ASCII\n", &offset);
             print("void - Clear the shell\n", &offset);
             print("spaceoshooter - Play a game of Space Shooter\n", &offset);
-            print("why - Explains why :-)\n", &offset);
             print("color - Outputs red color\n", &offset);
             print("ram - Output fake RAM usage\n", &offset);
             print("draw - Enter drawing mode\n", &offset);
