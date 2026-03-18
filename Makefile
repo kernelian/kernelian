@@ -1,5 +1,3 @@
-# Simple KNU Makefile
-
 CC = gcc -m32
 AS = nasm
 LD = ld -m elf_i386
